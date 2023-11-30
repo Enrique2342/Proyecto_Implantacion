@@ -34,8 +34,29 @@ insert into usuarios (nombre,ApellidoP,APELLIDOM,calle,DELEGACION,COLONIA,TELEFO
 Licenciatura,numero_cuenta,rol,estado) values ('Emiliano', 'Quiroz','Cervantes', 'Lomas Estrella', 'Canal de chalco', 'Escritorio', '81111889965', '2003-10-11', 
 12222, 'Lic. Sanborns', 'A92634876','alumno', 0);
 
+insert into usuarios (nombre,ApellidoP,APELLIDOM,calle,DELEGACION,COLONIA,TELEFONO,FECHA_NAC,password,
+Licenciatura,numero_cuenta,rol,estado) values ('Jose Enrique', 'Fuentes','Hernandez', 'Francisco I Madero', 'Centro', 'Rio Viejo', '6478289354', '2002-10-14', 
+54321, 'Lic. Literatura', 'A87654321','alumno', 0);
 
+insert into usuarios (nombre,ApellidoP,APELLIDOM,calle,DELEGACION,COLONIA,TELEFONO,FECHA_NAC,password,
+Licenciatura,numero_cuenta,rol,estado) values ('Analy', 'Cisneros','Godinez', 'Cupcakes', 'Venustiano Carranza', 'Pollito asado', '7383748383', '2003-02-15', 
+12345, 'Lic. Cinematografia', 'A12348765','alumno', 0);
 
+insert into usuarios (nombre,ApellidoP,APELLIDOM,calle,DELEGACION,COLONIA,TELEFONO,FECHA_NAC,password,
+Licenciatura,numero_cuenta,rol,estado) values ('Cecilia', 'Llanos','Molina', 'Progreso', 'Progresos', 'San pablo', '8858483848', '2001-11-10', 
+12345, 'Lic. Sistemas', 'A12545465','alumno', 0);
+
+insert into usuarios (nombre,ApellidoP,APELLIDOM,calle,DELEGACION,COLONIA,TELEFONO,FECHA_NAC,password,
+Licenciatura,numero_cuenta,rol,estado) values ('Jose Antonio', 'Reyes','Alvarez', 'Pozole', 'Maiz', 'Pollito', '5646544545', '1996-02-19', 
+12345, 'Lic.Aviacion', 'A65888599','alumno', 0);
+
+insert into usuarios (nombre,ApellidoP,APELLIDOM,calle,DELEGACION,COLONIA,TELEFONO,FECHA_NAC,password,
+Licenciatura,numero_cuenta,rol,estado) values ('Lilibet', 'Martinez','Nunes', 'Tamales', 'Ventero', 'Mosquitos', '5422113332', '1996-02-20', 
+12345, 'Lic. Criminologia', 'A38383003','alumno', 0);
+
+insert into usuarios (nombre,ApellidoP,APELLIDOM,calle,DELEGACION,COLONIA,TELEFONO,FECHA_NAC,password,
+Licenciatura,numero_cuenta,rol,estado) values ('Gloria', 'Marin','Toledo', 'Aguas', 'Frescas', 'Nose', '2452433121', '1996-09-01', 
+12345, 'Lic. Psicologia', 'A65645333','alumno', 0);
 
 CREATE TABLE colegiaturas (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -55,7 +76,44 @@ INSERT INTO colegiaturas (estudiante_id, monto, fecha_pago, estado) VALUES
 (2, 500.00, '2023-03-16', 'Pendiente'),
 (3, 500.00, '2023-01-17', 'Pendiente'),
 (3, 500.00, '2023-02-17', 'Pendiente'),
-(3, 500.00, '2023-03-17', 'Pendiente');
+(3, 500.00, '2023-03-17', 'Pendiente'),
+(4, 500.00, '2023-01-18', 'Pendiente'),
+(4, 500.00, '2023-02-18', 'Pendiente'),
+(4, 500.00, '2023-03-18', 'Pendiente'),
+(5, 500.00, '2023-01-19', 'Pendiente'),
+(5, 500.00, '2023-02-19', 'Pendiente'),
+(5, 500.00, '2023-03-19', 'Pendiente'),
+(6, 500.00, '2023-01-20', 'Pendiente'),
+(6, 500.00, '2023-02-20', 'Pendiente'),
+(6, 500.00, '2023-03-20', 'Pendiente'),
+(7, 500.00, '2023-03-21', 'Pendiente'),
+(7, 500.00, '2023-03-21', 'Pendiente'),
+(7, 500.00, '2023-03-21', 'Pendiente'),
+(8, 500.00, '2023-03-22', 'Pendiente'),
+(8, 500.00, '2023-03-22', 'Pendiente'),
+(8, 500.00, '2023-03-22', 'Pendiente'),
+(9, 500.00, '2023-03-23', 'Pendiente'),
+(9, 500.00, '2023-03-23', 'Pendiente'),
+(9, 500.00, '2023-03-23', 'Pendiente'),
+(10, 500.00, '2023-03-24', 'Pendiente'),
+(10, 500.00, '2023-03-24', 'Pendiente'),
+(10, 500.00, '2023-03-24', 'Pendiente'),
+(11, 500.00, '2023-03-25', 'Pendiente'),
+(11, 500.00, '2023-03-25', 'Pendiente'),
+(11, 500.00, '2023-03-25', 'Pendiente'),
+(12, 500.00, '2023-03-26', 'Pendiente'),
+(12, 500.00, '2023-03-25', 'Pendiente'),
+(12, 500.00, '2023-03-25', 'Pendiente'),
+(13, 500.00, '2023-03-26', 'Pendiente'),
+(13, 500.00, '2023-03-26', 'Pendiente'),
+(13, 500.00, '2023-03-26', 'Pendiente'),
+(14, 500.00, '2023-03-27', 'Pendiente'),
+(14, 500.00, '2023-03-27', 'Pendiente'),
+(14, 500.00, '2023-03-27', 'Pendiente'),
+(15, 500.00, '2023-03-28', 'Pendiente'),
+(15, 500.00, '2023-03-28', 'Pendiente'),
+(15, 500.00, '2023-03-28', 'Pendiente');
+
 
 CREATE TABLE horarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
