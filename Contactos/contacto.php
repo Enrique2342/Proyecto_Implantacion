@@ -14,7 +14,7 @@
         <h1>Contacto</h1>
         <p>Puedes contactarnos a través de los siguientes medios:</p>
         <ul>
-            <li>Número telefónico: 5533442244</li>
+            <li>Número telefónico: 5543914928</li>
             <li>Correo electrónico: TaquitosSupremos@my.campechanos.edu.mx</li>
             <li>WhatsApp: 333434452</li>
             <li>Facebook: https://www.facebook.com/groups/1343483</li>
